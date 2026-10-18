@@ -1,4 +1,4 @@
-# 使用MOD一覧（29件）
+# 使用MOD一覧（28件）
 
 この表は配布物の実インデックスから生成しました。SHA-1、SHA-512、Modrinth公式ダウンロードURLは [manifest.json](manifest.json) を参照してください。
 
@@ -24,14 +24,13 @@
 | 18 | [Iris Shaders](https://modrinth.com/mod/iris) | `iris-fabric-1.10.8+mc1.21.11.jar` | LGPL-3.0-only |
 | 19 | [Jade 🔍](https://modrinth.com/mod/jade) | `Jade-1.21.11-Fabric-21.1.6.jar` | CC-BY-NC-SA-4.0 |
 | 20 | [Lithium](https://modrinth.com/mod/lithium) | `lithium-fabric-0.21.4+mc1.21.11.jar` | LGPL-3.0-only |
-| 21 | [Magical Scepter](https://modrinth.com/mod/magical-scepter) | `magicalscepter-1.2.1+1.21.11.jar` | LicenseRef-All-Rights-Reserved |
-| 22 | [Mod Menu](https://modrinth.com/mod/modmenu) | `modmenu-17.0.1.jar` | MIT |
-| 23 | [Not Enough Animations](https://modrinth.com/mod/not-enough-animations) | `notenoughanimations-fabric-1.12.6-mc1.21.11.jar` | LicenseRef-tr7zw-Protective-License |
-| 24 | [Player Animation Library](https://modrinth.com/mod/player-animation-library) | `PlayerAnimationLibFabric-1.1.11+mc.1.21.11.jar` | MIT |
-| 25 | [Puzzles Lib](https://modrinth.com/mod/puzzles-lib) | `PuzzlesLib-v21.11.13-mc1.21.11-Fabric.jar` | MPL-2.0 |
-| 26 | [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat) | `voicechat-fabric-1.21.11-2.6.22.jar` | LicenseRef-All-Rights-Reserved |
-| 27 | [Sodium](https://modrinth.com/mod/sodium) | `sodium-fabric-0.8.14+mc1.21.11.jar` | LicenseRef-Polyform-Shield-1.0.0 |
-| 28 | [Text Placeholder API](https://modrinth.com/mod/placeholder-api) | `placeholder-api-2.8.2+1.21.10.jar` | LGPL-3.0-only |
-| 29 | [Visual Workbench](https://modrinth.com/mod/visual-workbench) | `VisualWorkbench-v21.11.1-mc1.21.11-Fabric.jar` | MPL-2.0 |
+| 21 | [Mod Menu](https://modrinth.com/mod/modmenu) | `modmenu-17.0.1.jar` | MIT |
+| 22 | [Not Enough Animations](https://modrinth.com/mod/not-enough-animations) | `notenoughanimations-fabric-1.12.6-mc1.21.11.jar` | LicenseRef-tr7zw-Protective-License |
+| 23 | [Player Animation Library](https://modrinth.com/mod/player-animation-library) | `PlayerAnimationLibFabric-1.1.11+mc.1.21.11.jar` | MIT |
+| 24 | [Puzzles Lib](https://modrinth.com/mod/puzzles-lib) | `PuzzlesLib-v21.11.13-mc1.21.11-Fabric.jar` | MPL-2.0 |
+| 25 | [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat) | `voicechat-fabric-1.21.11-2.6.22.jar` | LicenseRef-All-Rights-Reserved |
+| 26 | [Sodium](https://modrinth.com/mod/sodium) | `sodium-fabric-0.8.14+mc1.21.11.jar` | LicenseRef-Polyform-Shield-1.0.0 |
+| 27 | [Text Placeholder API](https://modrinth.com/mod/placeholder-api) | `placeholder-api-2.8.2+1.21.10.jar` | LGPL-3.0-only |
+| 28 | [Visual Workbench](https://modrinth.com/mod/visual-workbench) | `VisualWorkbench-v21.11.1-mc1.21.11-Fabric.jar` | MPL-2.0 |
 
 各MODのライセンスおよび配布条件は、それぞれの公式ページで確認してください。このGitHubリポジトリは第三者MODのJARやソースを同梱しません。ライセンス表示はModrinth APIの参照値であり、再配布の許可を示すものではありません。

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Offline check: pack SHA256 and exactly 29 official-CDN URL/hash entries.
+"""Offline check: pack SHA256 and exactly 28 official-CDN URL/hash entries.
 Does not execute mods, access network, or establish absence of malware.
 """
 from pathlib import Path
@@ -13,7 +13,7 @@ assert hashlib.sha256(archive.read_bytes()).hexdigest()==manifest['sha256'], 'pa
 with zipfile.ZipFile(archive) as z:
     index=json.loads(z.read('modrinth.index.json'))
 assert index==json.loads((root/'modrinth.index.json').read_text(encoding='utf8')), 'index mismatch'
-assert len(index['files'])==29==len(manifest['files'])
+assert len(index['files'])==28==len(manifest['files'])
 refs={x['filename']:x for x in manifest['files']}
 for x in index['files']:
     path=Path(x['path'])
@@ -24,5 +24,5 @@ for x in index['files']:
     assert x['downloads']==[row['download']]
     assert all(urlparse(u).scheme=='https' and urlparse(u).hostname=='cdn.modrinth.com' for u in x['downloads'])
 assert not refs
-print('PASS: .mrpack SHA256 / 29 entries / source URLs / hashes match.')
+print('PASS: .mrpack SHA256 / 28 entries / source URLs / hashes match.')
 print('Not a malware scan. The VDESK pack is not published or reviewed within Modrinth.')

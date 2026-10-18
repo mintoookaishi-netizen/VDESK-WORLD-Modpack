@@ -9,7 +9,7 @@ GitHub公開は出所と内容を確認しやすくするための措置です�
 
 ### 確認できること
 
-- MOD29件の個別プロジェクトページは [MODS.md](MODS.md) で確認できます。
+- MOD28件の個別プロジェクトページは [MODS.md](MODS.md) で確認できます。
 - 取得元URLはすべて `cdn.modrinth.com` のHTTPSです。
 - 配布ファイルのSHA-256は [SHA256SUMS.txt](SHA256SUMS.txt) で検証できます。
 - 取得予定の各JARのSHA-1/SHA-512は [manifest.json](manifest.json) で確認できます。

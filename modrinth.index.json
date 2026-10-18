@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.0",
+  "versionId": "1.0.1",
   "name": "VDESK WORLD - Streamer Compatibility Test",
-  "summary": "Stable MC 1.21.11 Fabric client pack for VDESK WORLD pre-event streamer compatibility testing.",
+  "summary": "Stable Fabric streamer test: Magical Scepter omitted to avoid creative inventory crash in unmodded HUB.",
   "files": [
     {
       "path": "mods/arcane-arsenal-2.0.2.jar",
@@ -229,21 +229,6 @@
         "https://cdn.modrinth.com/data/x3HZvrj6/versions/toZOkd46/immersive_aircraft-1.5.2%2B1.21.11-fabric.jar"
       ],
       "fileSize": 2470955
-    },
-    {
-      "path": "mods/magicalscepter-1.2.1+1.21.11.jar",
-      "hashes": {
-        "sha1": "b26d4a302f3d87e7578988febca6aa42e585412e",
-        "sha512": "2a481e809ae66da46e7c5665659833dc2e40e334fcbf6876e2268f617e0394337f78edd030ee59ffd416b0344ad1de5911bed8f7555799c53b778746cb6f769c"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/aB6WKPtL/versions/c8cKqTeB/magicalscepter-1.2.1%2B1.21.11.jar"
-      ],
-      "fileSize": 723003
     },
     {
       "path": "mods/notenoughanimations-fabric-1.12.6-mc1.21.11.jar",

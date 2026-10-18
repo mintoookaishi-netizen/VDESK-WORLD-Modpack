@@ -1,4 +1,4 @@
-# VDESK WORLD — Streamer MOD Test v1.0.0
+# VDESK WORLD — Streamer MOD Test v1.0.1
 
 > [!WARNING]
 > **重要：このVDESK独自MODパックは、Modrinth内で公開・審査されていません。**
@@ -9,20 +9,32 @@
 
 ## ダウンロード・バージョン
 
-**[VDESK_WORLD_MOD_TEST_v1.0.0.mrpack](VDESK_WORLD_MOD_TEST_v1.0.0.mrpack)**
+**[VDESK_WORLD_MOD_TEST_v1.0.1.mrpack](VDESK_WORLD_MOD_TEST_v1.0.1.mrpack)**
 
 - Minecraft Java: **1.21.11**
 - Fabric Loader: **0.19.5**
-- クライアントMOD: **29個（バージョン固定）**
+- クライアントMOD: **28個（バージョン固定）**
 - JAR取得元: 各MODについて **cdn.modrinth.com** の公式配布URLを参照
-- .mrpack の SHA-256: **`f55cc57e02a45fc7196648a4652111f5e9f40f0abb786139fb1abae69ccfe14a`**
+- .mrpack の SHA-256: **`c1a1339d5642e4a34984d8be2c10f511a6ef3acfb4c7c30b82ef2143956d766c`**
 
 ※ Modrinth公式CDNから取得する構成でも、Modrinthがこの独自パックを審査・承認したことにはなりません。
+
+## v1.0.1 でのクラッシュ対策（2026-10-18）
+
+**Eキーでインベントリを開くとWorld Savingと出て落ちる問題**を受け、原因のMagical Scepter 1.2.1を配布対象から外しました。HUBはMOD未導入で、クリエイティブ用アイテム一覧の生成時にMagical Scepter独自のデータを参照するとクラッシュします。
+
+- 変更したのはMagical Scepter 1件の除外のみ。残る28件のMODとバージョンは固定したままです。
+- Arcane Arsenalの杖、VDESK専用魔法破壊テスト、NPC会話、カメラ、VCなどは維持します。
+- 以前のv1.0.0は更新せず、別の修正版v1.0.1として公開します。配信者は修正版を新しいModrinthプロファイルにインポートしてください。
+- MODパックの再インストールを行わずに旧プロファイルでEキーを押すことは避けてください。
+- サーバー側もMODテスト専用環境だけ同じMODを除外します。HUB・EVENT・本番ワールドは変更しません。
+
+修正版でのEキーの実機確認が完了するまでは、解決済みと断言しません。
 
 ## インストール
 
 1. [Modrinth App公式サイト](https://modrinth.com/app) からアプリを導入する。
-2. このリポジトリから `VDESK_WORLD_MOD_TEST_v1.0.0.mrpack` をダウンロードする。
+2. このリポジトリから `VDESK_WORLD_MOD_TEST_v1.0.1.mrpack` をダウンロードする。
 3. Modrinth Appの **Create an Instance → Import Instance（Import from file）** などから読み込む。UIの表示はアプリ版によって異なる。
 4. **Unknown file warning** が出たら、これはModrinth内で公開・審査されていないパックであると理解し、[内容一覧](MODS.md) と [安全性について](SECURITY.md) を確認する。判断できない場合は **Don't install** を選ぶ。
 5. 独立した専用Minecraftプロファイルを起動する。既存の `mods` フォルダへ直接上書きしない。
@@ -55,7 +67,7 @@
 - **MODがないクライアントではMODテストに参加できません。** ProxyはMODを自動配布しません。
 - テストサーバーはホワイトリスト制です。配信者には運営が事前にアカウント登録します。
 - この接続経路はVelocityの設定登録と両サーバーの起動まで確認済みですが、**HUB → MODテストのプレイヤー実移動は最終確認中**です。もし切り替え時に拒否されたら運営へ状況を知らせてください。
-- Velocity転送対応としてサーバー専用のFabricProxy-Lite 2.11.0を追加しています。**クライアント用29MODの配布ファイルは変更していません。**
+- Velocity転送対応としてサーバー専用のFabricProxy-Lite 2.11.0を追加しています。**配布パックv1.0.1は1つの原因MODを除外して28MODに更新されています。**
 
 ## 1人での動作確認
 
@@ -93,7 +105,7 @@
 
 マイクの入力テストは1人で可能ですが、相手に声が届くかどうかは2人以上で確認してください。テストワールドは本番ストーリーの再現ではありません。
 
-**現時点の確認範囲:** クライアントからの接続、VCサーバー認証、2エリア間の移動、Easy NPCの会話メニュー起動、NPC37種類のサーバー会話データ、全員への暗視効果をサーバー上で確認しました。MOD全29件の個別機能、会話の選択肢遷移を含むすべての画面表示、外部からの接続、2人での実通話はまだ保証できません。
+**現時点の確認範囲:** クライアントからの接続、VCサーバー認証、2エリア間の移動、Easy NPCの会話メニュー起動、NPC37種類のサーバー会話データ、全員への暗視効果をサーバー上で確認しました。MOD全28件の個別機能、会話の選択肢遷移を含むすべての画面表示、外部からの接続、2人での実通話はまだ保証できません。
 
 ### NPC攻撃・討伐テスト（専用NPC）
 
@@ -107,8 +119,8 @@
 
 ## 中身をすべて確認する
 
-- [MODS.md](MODS.md) — 29個のMOD名・公式ページ・バージョン固定ファイル
-- [manifest.json](manifest.json) — 29件の取得URL、SHA-1、SHA-512、プロジェクト情報
+- [MODS.md](MODS.md) — 28個のMOD名・公式ページ・バージョン固定ファイル
+- [manifest.json](manifest.json) — 28件の取得URL、SHA-1、SHA-512、プロジェクト情報
 - [modrinth.index.json](modrinth.index.json) — 配布`.mrpack`から抽出した元のインデックス
 - [SHA256SUMS.txt](SHA256SUMS.txt) — 配布`.mrpack`自体のSHA-256
 - [scripts/verify_pack.py](scripts/verify_pack.py) — オフライン整合性検証コード
@@ -118,6 +130,6 @@
 
 ## 更新方針
 
-v1.0.0を検証用の固定構成として扱い、MODは原則追加しません。互換性やセキュリティ上必要な修正のみ、新バージョンとして公開します。
+v1.0.1を検証用の固定構成として扱い、MODは原則追加しません。互換性やセキュリティ上必要な修正のみ、新バージョンとして公開します。
 
 第三者MODは各開発者に権利が帰属します。このリポジトリはMOD本体のJARを再配布せず、公式URLのみを参照します。

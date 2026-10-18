@@ -1,12 +1,12 @@
 {
   "title": "VDESK WORLD Streamer MOD Test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minecraft": "1.21.11",
   "fabric": "0.19.5",
   "modrinth_published": false,
   "modrinth_reviewed": false,
-  "pack": "VDESK_WORLD_MOD_TEST_v1.0.0.mrpack",
-  "sha256": "f55cc57e02a45fc7196648a4652111f5e9f40f0abb786139fb1abae69ccfe14a",
+  "pack": "VDESK_WORLD_MOD_TEST_v1.0.1.mrpack",
+  "sha256": "c1a1339d5642e4a34984d8be2c10f511a6ef3acfb4c7c30b82ef2143956d766c",
   "files": [
     {
       "name": "[EMF] Entity Model Features",
@@ -229,17 +229,6 @@
       "size": 900462
     },
     {
-      "name": "Magical Scepter",
-      "filename": "magicalscepter-1.2.1+1.21.11.jar",
-      "project_id": "aB6WKPtL",
-      "project_url": "https://modrinth.com/mod/magical-scepter",
-      "license_label": "LicenseRef-All-Rights-Reserved",
-      "sha1": "b26d4a302f3d87e7578988febca6aa42e585412e",
-      "sha512": "2a481e809ae66da46e7c5665659833dc2e40e334fcbf6876e2268f617e0394337f78edd030ee59ffd416b0344ad1de5911bed8f7555799c53b778746cb6f769c",
-      "download": "https://cdn.modrinth.com/data/aB6WKPtL/versions/c8cKqTeB/magicalscepter-1.2.1%2B1.21.11.jar",
-      "size": 723003
-    },
-    {
       "name": "Mod Menu",
       "filename": "modmenu-17.0.1.jar",
       "project_id": "mOgUt4GM",
@@ -327,5 +316,12 @@
       "download": "https://cdn.modrinth.com/data/kfqD1JRw/versions/dn5ujpT7/VisualWorkbench-v21.11.1-mc1.21.11-Fabric.jar",
       "size": 65380
     }
-  ]
+  ],
+  "changes": {
+    "removed": [
+      "Magical Scepter 1.2.1"
+    ],
+    "reason": "Crash on creative inventory in non-modded HUB: missing magicalscepter:scepter / magicalscepter:magical.",
+    "kept": "Remaining 28 client mods unchanged."
+  }
 }
