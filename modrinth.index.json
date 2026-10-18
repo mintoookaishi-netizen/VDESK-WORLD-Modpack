@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "game": "minecraft",
   "versionId": "1.0.1",
-  "name": "VDESK WORLD - Streamer Compatibility Test",
+  "name": "VDESK WORLD MODPACK",
   "summary": "Stable Fabric streamer test: Magical Scepter omitted to avoid creative inventory crash in unmodded HUB.",
   "files": [
     {

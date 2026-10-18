@@ -1,21 +1,21 @@
-# VDESK WORLD — Streamer MOD Test v1.0.1
+# VDESK WORLD MODPACK v1.0.1
 
 > [!WARNING]
 > **重要：このVDESK独自MODパックは、Modrinth内で公開・審査されていません。**
 >
 > Modrinth Appでこの外部ファイルを読み込むと **Unknown file warning（不明なファイルの警告）** が表示されます。これはVDESK独自パックがModrinth内で公開・審査されていないためで、**ウイルスを検出したという意味ではありません**。しかし、**安全性が保証されたという意味でもありません**。内容を確認し、納得できる場合にのみインストールしてください。警告を無効化する必要はありません。
 
-配信者・参加者向けのMinecraft MOD互換性テスト用の配布リポジトリです。本番イベントのゲームデータやサーバー設定は含みません。
+配信者・参加者向けのMinecraft MODパック配布リポジトリです。本番イベントのゲームデータやサーバー設定は含みません。
 
 ## ダウンロード・バージョン
 
-**[VDESK_WORLD_MOD_TEST_v1.0.1.mrpack](VDESK_WORLD_MOD_TEST_v1.0.1.mrpack)**
+**[VDESK WORLD MODPACK v1.0.1 をダウンロード](https://github.com/mintoookaishi-netizen/VDESK-WORLD-Modpack/releases/download/v1.0.1/VDESK_WORLD_MODPACK_v1.0.1.mrpack)**
 
 - Minecraft Java: **1.21.11**
 - Fabric Loader: **0.19.5**
 - クライアントMOD: **28個（バージョン固定）**
 - JAR取得元: 各MODについて **cdn.modrinth.com** の公式配布URLを参照
-- .mrpack の SHA-256: **`c1a1339d5642e4a34984d8be2c10f511a6ef3acfb4c7c30b82ef2143956d766c`**
+- .mrpack の SHA-256: **`ed4bd0eeb732cb36aa63595a008f1247ba58d2e04f4fe4f56b63392730ed77a7`**
 
 ※ Modrinth公式CDNから取得する構成でも、Modrinthがこの独自パックを審査・承認したことにはなりません。
 
@@ -34,7 +34,7 @@
 ## インストール
 
 1. [Modrinth App公式サイト](https://modrinth.com/app) からアプリを導入する。
-2. このリポジトリから `VDESK_WORLD_MOD_TEST_v1.0.1.mrpack` をダウンロードする。
+2. このリポジトリから `VDESK_WORLD_MODPACK_v1.0.1.mrpack` をダウンロードする。
 3. Modrinth Appの **Create an Instance → Import Instance（Import from file）** などから読み込む。UIの表示はアプリ版によって異なる。
 4. **Unknown file warning** が出たら、これはModrinth内で公開・審査されていないパックであると理解し、[内容一覧](MODS.md) と [安全性について](SECURITY.md) を確認する。判断できない場合は **Don't install** を選ぶ。
 5. 独立した専用Minecraftプロファイルを起動する。既存の `mods` フォルダへ直接上書きしない。

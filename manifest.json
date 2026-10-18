@@ -1,12 +1,12 @@
 {
-  "title": "VDESK WORLD Streamer MOD Test",
+  "title": "VDESK WORLD MODPACK",
   "version": "1.0.1",
   "minecraft": "1.21.11",
   "fabric": "0.19.5",
   "modrinth_published": false,
   "modrinth_reviewed": false,
-  "pack": "VDESK_WORLD_MOD_TEST_v1.0.1.mrpack",
-  "sha256": "c1a1339d5642e4a34984d8be2c10f511a6ef3acfb4c7c30b82ef2143956d766c",
+  "pack": "VDESK_WORLD_MODPACK_v1.0.1.mrpack",
+  "sha256": "ed4bd0eeb732cb36aa63595a008f1247ba58d2e04f4fe4f56b63392730ed77a7",
   "files": [
     {
       "name": "[EMF] Entity Model Features",
