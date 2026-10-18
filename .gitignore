@@ -1,0 +1,9 @@
+*.jar
+*.log
+.env
+*.pem
+config/
+logs/
+world/
+server/
+__pycache__/
